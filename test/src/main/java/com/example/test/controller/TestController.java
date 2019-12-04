@@ -31,5 +31,10 @@ public class TestController {
     public String test2(String name){
         return name+"test2 success";
     }
+
+    @RequestMapping(value = "test3", method = RequestMethod.GET)
+    public String test3(String name){
+        return name+"test3 success";
+    }
 }
 
